@@ -1,3 +1,4 @@
 rootProject.name = 'data-structure-algorithm'
 include 'data-structure'
+include 'solutions'
 
