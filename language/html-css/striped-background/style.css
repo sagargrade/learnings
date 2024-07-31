@@ -1,0 +1,17 @@
+body {
+  font-size: 16px;
+  font-family: Roboto, Helvetica, sans-serif;
+}
+
+.striped-paragraph {
+  border: 1px solid rgb(125, 125, 125);
+  width: 20%;
+  /* striped background */
+  background-image: repeating-linear-gradient(
+    135deg,
+    rgb(237, 108, 111) 0px,
+    rgb(237, 108, 111) 2px,
+    rgb(179, 179, 179) 2px,
+    rgb(179, 179, 179) 4px
+  );
+}
