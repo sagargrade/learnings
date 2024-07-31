@@ -22,6 +22,13 @@ let chart = new Chart(ctx, {
   },
   options: {
     scales: {
+      x: {
+        ticks: {
+          color: (context) => {
+            return context.index === 1 ? "red" : "#666";
+          },
+        },
+      },
       y: {
         beginAtZero: true,
       },
