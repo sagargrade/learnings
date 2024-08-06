@@ -15,3 +15,14 @@ body {
     rgb(179, 179, 179) 4px
   );
 }
+
+.repeating-gradient-ex-01 {
+  border: 1px solid rgb(125, 125, 125);
+  width: 20%;
+  background-image: repeating-linear-gradient(
+    to right,
+    red 0%,
+    green 10%,
+    red 20%
+  );
+}
