@@ -3,6 +3,7 @@ body {
   font-family: Roboto, Helvetica, sans-serif;
 }
 
-.chart-detail {
+.chart-detail,
+.chart-tooltip {
   width: 800px;
 }
