@@ -94,6 +94,21 @@ In this kind of service, cloud vendor is responsible for IaaS + PaaS + Hosted Ap
 
 > Email, Office Tools, CRMs
 
+## Defence in depth
+
+The objective is to stop or slow unauthorized data access. So we follow layered defence approach. if one layer is breached, other layers can still stop attacks.
+
+(Data) <- Application <- Compute <- Network <- Perimeter <- Identify and Access <- Physical Security
+
+> 7 layers of Defence in depth
+> 1. Physical Security - First line of defence, Building/hardware access
+> 2. Identity and Access - Securing identities, Grant account access to only what's needed
+> 3. Perimeter - Protect against network based attacks, Perimeter Firewalls/DDoS protection
+> 4. Network - Secure connectivity between resources, Securely connect to on-prem resources
+> 5. Compute - Secure Virtual Machines, Endpoint protection/OS patching
+> 6. Application - Resolve application vulnerabilities, Secure secrets, Design for security
+> 7. Data - Database, Disks, SaaS applications
+
 
 
 
