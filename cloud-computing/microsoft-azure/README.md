@@ -109,6 +109,23 @@ The objective is to stop or slow unauthorized data access. So we follow layered 
 > 6. Application - Resolve application vulnerabilities, Secure secrets, Design for security
 > 7. Data - Database, Disks, SaaS applications
 
+## Benefits of Cloud Computing
+
+1. High Availability - Available even if disrupted
+   > Cluster ensure improved hgh availability. Cluster is group of VMs that work together.
+2. Scalability - Ability to increase resources to meet demand
+   > Vertical Scaling (Scaling up) - Increase resources of single VM (manual process)
+   > Horizontal Scaling (Scaling out) - Increase number of VMs, Load balancer distributes traffic across VMs (automatic process)
+3. Reliability (Resilience of system) - Ability to recover from failures and disasters and continue to function
+4. Predictability
+   > Predictable performance - Consistent performance, all the time
+   > Predictable costs - Accurately track and forecast costs
+5. Security - Provided solutions to meet your security needs
+6. Governance - Standard and compliance enforcement
+7. Manageability 
+   > Manageability of the cloud - How you (automatically) control cloud resources - Autoscaling, monitoring, template-based deployments
+   > Manageability in the cloud - How you interact with cloud resources - Azure Portal, Azure CLI, Azure PowerShell, Azure SDKs
+
 
 
 
